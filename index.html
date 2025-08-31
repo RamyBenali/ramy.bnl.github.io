@@ -6,39 +6,45 @@
     <title>Mon Portfolio - Développeur & Créatif</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/dev-theme.css" id="theme-style">
-    <link rel="stylesheet" href="styles/creative-theme.css" id="creative-theme-style" disabled>
 </head>
 <body>
-    <div class="container">
+    <div class="fullpage-container">
         <header>
-            <a href="#" class="logo">Ramy Benali</a>
+            <a href="#" class="logo">Choose a side.</a>
         </header>
         
-        <main class="hero">
-            <div class="slider">
-                <div class="option developer-option" data-theme="dev">
-                    <div class="option-content">
-                        <h2>Développeur</h2>
-                        <p id="dev-content">Voir mes projets de développement</p>
-                        <a href="pages/dev.html" class="btn">Explorer</a>
+        <div class="fullpage-slider">
+            <div class="option developer-option" data-theme="dev">
+                <div class="option-content">
+                    <div class="option-icon">
+                        <i class="fas fa-code"></i>
                     </div>
-                    <div class="option-overlay"></div>
+                    <h2>Développeur</h2>
+                    <p>Découvrez mes projets de développement et compétences techniques</p>
+                    <a href="pages/dev.html" class="btn">Explorer</a>
                 </div>
-                
-                <div class="option creative-option" data-theme="creative">
-                    <div class="option-content">
-                        <h2>Créatif</h2>
-                        <p id="creative-content">Découvrir mes créations visuelles</p>
-                        <a href="pages/creative.html" class="btn">Explorer</a>
-                    </div>
-                    <div class="option-overlay"></div>
-                </div>
+                <div class="option-overlay"></div>
             </div>
-        </main>
+            
+            <div class="option creative-option" data-theme="creative">
+                <div class="option-content">
+                    <div class="option-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h2>Créatif</h2>
+                    <p>Explorez mes créations visuelles et projets de montage vidéo</p>
+                    <a href="pages/creative.html" class="btn">Découvrir</a>
+                </div>
+                <div class="option-overlay"></div>
+            </div>
+        </div>
+        
         <footer>
-            <p>&copy; 2025 Ramy BENALI. Tous droits réservés.</p>
+            <p>&copy; 2025 Ramy Benali. Tous droits réservés.</p>
+        </footer>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
