@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Développement - Mon Portfolio</title>
+    <link rel="stylesheet" href="../styles/dev-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dev-theme">
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <i class="fas fa-arrow-left"></i> Retour
+            </a>
+            <div class="nav-menu">
+                <a href="#projects" class="nav-link">Projets</a>
+                <a href="#skills" class="nav-link">Compétences</a>
+                <a href="#about" class="nav-link">À propos</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="dev-hero">
+        <div class="hero-visual">
+            <div class="floating-elements">
+                <div class="floating-element" data-tech="React">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="floating-element" data-tech="Python">
+                    <i class="fab fa-python"></i>
+                </div>
+                <div class="floating-element" data-tech="Java">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="floating-element" data-tech="Kotlin">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="floating-element" data-tech="Node.js">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <div class="floating-element" data-tech="HTML5">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="floating-element" data-tech="CSS3">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="floating-element" data-tech="JavaScript">
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="floating-element" data-tech="Git">
+                    <i class="fab fa-git-alt"></i>
+                </div>
+                <div class="floating-element" data-tech="C">
+                    <i class="fas fa-c"></i>
+                </div>
+                <div class="floating-element" data-tech="C++">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-intro">
+                <span class="hero-greeting">Bonjour, je suis</span>
+                <h1 class="hero-title">Ramy Benali</h1>
+                <div class="hero-tagline">
+                    <span class="typewriter">Développeur Fullstack</span>
+                    <span class="typewriter-cursor">|</span>
+                </div>
+            </div>
+
+            <p class="hero-description">
+                Étudiant en <strong>Master Génie Logiciel</strong>, je m'épanouis dans la création de solutions digitales innovantes. 
+                Passionné par le développement fullstack, je combine expertise technique et créativité pour transformer 
+                des concepts complexes en expériences utilisateur exceptionnelles.
+            </p>
+
+            <div class="hero-highlights">
+                <div class="highlight-item">
+                    <i class="fas fa-code"></i>
+                    <span>Polyvalent & Adaptable</span>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Créatif & Innovant</span>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-rocket"></i>
+                    <span>Dynamique & Motivé</span>
+                </div>
+            </div>
+
+            <div class="hero-actions">
+                <a href="#projects" class="cta-btn primary">
+                    <i class="fas fa-eye"></i>Voir mes projets
+                </a>
+                <a href="#contact" class="cta-btn secondary">
+                    <i class="fas fa-paper-plane"></i>Me contacter
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Mes <span class="accent">Projets</span></h2>
+            <!-- Remplace la section projects-grid existante par ce code -->
+            <div class="projects-grid">
+                <!-- Project 1: Pong Game -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);">
+                        <img src="../assets/images/pong-logo.jpg" alt="Pong Game" class="project-logo-img">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>C</span>
+                                <span>Raylib</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Pong Game</h3>
+                        <p class="project-description">Jeu de pong élégant avec design moderne et physique réaliste</p>
+                        <div class="project-actions">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                            <a href="#" class="project-btn secondary">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Echoes -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <img src="../assets/images/Echoes.jpg" alt="Echoes" class="echoes-logo-img">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>React</span>
+                                <span>JavaScript</span>
+                                <span>CSS3</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Echoes</h3>
+                        <p class="project-description">Jeu d'énigmes immersif développé pour le club scientifique universitaire</p>
+                        <div class="project-actions">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                            <a href="#" class="project-btn secondary">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: HomeInspire -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <img src="../assets/images/Home-inspire.jpg" alt="Home-inspire" class="home-inspire-logo-img">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>JavaFX</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">HomeInspire</h3>
+                        <p class="project-description">Solution complète de gestion d'agence immobilière avec interface intuitive</p>
+                        <div class="project-actions">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                            <a href="#" class="project-btn secondary">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: SaldaeTrip -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <img src="../assets/images/SaldaeTrip.jpg" alt="SaldaeTrip" class="saldaetrip-logo-img">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Kotlin</span>
+                                <span>Android</span>
+                                <span>Floater</span>
+                                <span>MySQL</span>
+                                <span>SupaBase</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SaldaeTrip</h3>
+                        <p class="project-description">Application touristique pour découvrir Béjaïa et ses meilleures adresses</p>
+                        <div class="project-actions">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                            <a href="#" class="project-btn secondary">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Mes <span class="accent">Compétences</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaFx</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Outils</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Floater</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Figma</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="dev-footer">
+        <div class="container">
+            <p>&copy; 2025 Ramy Benali. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="../scripts/dev-page.js"></script>
+</body>
+</html>
